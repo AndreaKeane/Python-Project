@@ -39,3 +39,9 @@ docker run --name mongodb -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=user -
 # Stop and Remove the Docker Container, Discard all contents
 docker stop mongodb && docker rm mongodb
 ```
+
+Testing 
+(Article)[https://www.mongodb.com/developer/products/mongodb/pytest-fixtures-and-pypi/]
+
+## Pytest  
+

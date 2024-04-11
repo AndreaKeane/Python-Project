@@ -6,7 +6,7 @@ import logging
 def do_stuff(desc="default placeholder text") -> dict: 
     """Placeholder for interacting with MongoDB"""
 
-    db = database.mongo_db("not_test")
+    db = database.mongo_db()
     collection = db.name_this_collection
     print(f"Connected to Mongo {db.name}:{collection.name}")
 

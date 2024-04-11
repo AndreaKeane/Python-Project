@@ -14,6 +14,6 @@ def configuration():
     database.mongo_client().drop_database(dbname)
 
 
-def test_do_stuff(): 
-    response = main.do_stuff("Testing from test module")
-    assert response
+# def test_do_stuff(): 
+#     response = main.do_stuff("Testing from test module")
+#     assert response

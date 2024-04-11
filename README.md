@@ -26,7 +26,7 @@ Deactivate the venv
 
 ## Mongo DB 
 
-(MongoDB - Docker Docs](https://www.mongodb.com/compatibility/docker)
+[MongoDB - Docker Docs](https://www.mongodb.com/compatibility/docker)
 
 ```sh
 # Set the MongoDB version 
@@ -42,6 +42,9 @@ docker stop mongodb && docker rm mongodb
 
 Testing 
 (Article)[https://www.mongodb.com/developer/products/mongodb/pytest-fixtures-and-pypi/]
+
+MongoDB is replaced with the testcontainers' [MongoDbContainer](https://testcontainers-python.readthedocs.io/en/latest/modules/mongodb/README.html) and then [monkeypatched](https://pytest-with-eric.com/mocking/pytest-monkeypatch/) over the get_client() call. 
+This allows us to make real requests to and get responses from a MongoDB instance and then remove it when completed.  
 
 ## Pytest  
 

@@ -1,6 +1,5 @@
-
-from project import database
 import logging
+from project import database
 
 
 def do_stuff(desc="default placeholder text") -> dict: 

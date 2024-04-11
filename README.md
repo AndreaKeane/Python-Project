@@ -45,3 +45,5 @@ Testing
 
 ## Pytest  
 
+`pytest` - Run all tests
+`pytest -s` - Run all tests, printstdout

@@ -50,3 +50,11 @@ This allows us to make real requests to and get responses from a MongoDB instanc
 
 `pytest` - Run all tests
 `pytest -s` - Run all tests, printstdout
+
+
+## User Accounts  
+
+Implementing a Users interface with the [FastAPI Users module](https://fastapi-users.github.io/fastapi-users/latest/).
+Using the [Beanie ODM Setup](https://fastapi-users.github.io/fastapi-users/latest/configuration/databases/beanie/) to work with our existing MongoDB database.  
+
+For running only the users app: sh`uvicorn app.app:app --reload`
